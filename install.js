@@ -7,6 +7,15 @@ module.exports = {
       },
     },
     {
+      method: "shell.run",
+      params: {
+        path: "applio",
+        message: [
+          "git reset --hard 5db5e53ad30cc69007e576d96f85fdd932c9fea8"
+        ]
+      }
+    },
+    {
       method: "script.start",
       params: {
         uri: "torch.js",
