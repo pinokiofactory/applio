@@ -1,0 +1,34 @@
+{
+  "posts": [
+    "https://x.com/cocktailpeanut/status/1836420724317450679",
+    "https://www.youtube.com/watch?v=gjggpadBgOo"
+  ],
+  "links": [{
+    "title": "6Morpheus6 (wrote the launcher)",
+    "links": [{
+      "type": "bitcoin",
+      "value": "1DdQdK4SfyJ7dZ64eiw2cPzsEigmbQ2CeW"
+    }, {
+      "title": "Github",
+      "value": "https://github.com/6Morpheus6"
+    }, {
+      "title": "Pinokio Wiki",
+      "value": "https://github.com/6Morpheus6/pinokio-wiki"
+    }, {
+      "title": "Discord",
+      "value": "https://discord.gg/TQdNwadtE4"
+    }]
+  }, {
+    "title": "Applio (by IAHispano)",
+    "links":[{
+      "title": "X",
+      "value": "https://x.com/ApplioAI"
+    },{
+      "title": "Documentation",
+      "value": "https://docs.applio.org/applio"
+    }, {
+      "title": "Discord",
+      "value": "https://discord.gg/urxFjYmYYh"
+    }]
+  }]
+}
