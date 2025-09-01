@@ -9,7 +9,7 @@ module.exports = {
         env: {
           PYTORCH_ENABLE_MPS_FALLBACK: 1
         },
-        path: "applio",
+        path: "app",
         message: [
           "python app.py",
         ],
