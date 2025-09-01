@@ -7,7 +7,8 @@ module.exports = {
       params: {
         venv: "env",
         env: {
-          PYTORCH_ENABLE_MPS_FALLBACK: 1
+          PYTORCH_ENABLE_MPS_FALLBACK: 1,
+          TF_ENABLE_ONEDNN_OPTS: 0
         },
         path: "app",
         message: [
