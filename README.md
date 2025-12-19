@@ -1,3 +1,3 @@
 # Applio
 
-1-click launcher for [Applio](https://github.com/IAHispano/Applio)
+A pinokio script for [Applio](https://github.com/IAHispano/Applio)
