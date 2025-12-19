@@ -1,3 +1,3 @@
 # Applio
 
-A pinokio script for [Applio](https://github.com/IAHispano/Applio)
+A pinokio script for [https://github.com/IAHispano/Applio](https://github.com/IAHispano/Applio)
