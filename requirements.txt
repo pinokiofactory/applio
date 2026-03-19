@@ -1,17 +1,18 @@
 # Core dependencies
+setuptools==81.0.0
 pip>=23.3; sys_platform == 'darwin'
 wheel; sys_platform == 'darwin'
 PyYAML; sys_platform == 'darwin'
-numpy==1.26.4
+numpy==2.2.1
 requests>=2.31.0,<2.32.0
 tqdm
 wget
 
 # Audio processing
 ffmpeg-python>=0.2.0
-faiss-cpu==1.7.3
+faiss-cpu==1.13.2
 librosa==0.11.0
-scipy==1.11.1
+scipy==1.16.3
 soundfile==0.12.1
 noisereduce
 pedalboard
@@ -20,32 +21,23 @@ soxr
 
 # Machine learning and deep learning
 omegaconf>=2.0.6; sys_platform == 'darwin'
-numba; sys_platform == 'linux'
-numba==0.61.0; sys_platform == 'darwin' or sys_platform == 'win32'
-#torch==2.7.1; sys_platform == 'darwin'
-#torch==2.7.1+cu128; sys_platform == 'linux' or sys_platform == 'win32'
-#torchaudio==2.7.1; sys_platform == 'darwin'
-#torchaudio==2.7.1+cu128; sys_platform == 'linux' or sys_platform == 'win32'
-#torchvision==0.22.1; sys_platform == 'darwin'
-#torchvision==0.22.1+cu128; sys_platform == 'linux' or sys_platform == 'win32'
-torchcrepe==0.0.23
+numba==0.63.1
+torchcrepe
 torchfcpe
-swift_f0
 einops
 transformers==4.44.2
 
 # Visualization and UI
-matplotlib==3.7.2
+matplotlib==3.10.8
 tensorboard
-gradio==5.23.1
+gradio==6.5.1
 
 # Miscellaneous utilities
 certifi>=2023.07.22; sys_platform == 'darwin'
 antlr4-python3-runtime==4.8; sys_platform == 'darwin'
 tensorboardX
-tensorflow
-edge-tts==7.2.0
+edge-tts==7.2.7
 pypresence
 beautifulsoup4
 sounddevice
-webrtcvad
+webrtcvad-wheels

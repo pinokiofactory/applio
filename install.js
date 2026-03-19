@@ -12,8 +12,11 @@ module.exports = {
     {
       method: "shell.run",
       params: {
+        venv_python: "3.11",
+        venv: "env",
+        path: "app",
         message: [
-          "conda update -y -c conda-forge huggingface_hub",
+          "uv pip install -r ../requirements.txt",
         ]
       }
     },
@@ -25,16 +28,6 @@ module.exports = {
           venv: "env",               
           path: "app",
         }
-      }
-    },
-    {
-      method: "shell.run",
-      params: {
-        venv: "env",
-        path: "app",
-        message: [
-          "uv pip install -r ../requirements.txt",
-        ]
       }
     }
   ]
