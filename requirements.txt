@@ -14,6 +14,7 @@ faiss-cpu==1.13.2
 librosa==0.11.0
 scipy==1.16.3
 soundfile==0.12.1
+sounddevice
 noisereduce
 pedalboard
 stftpitchshift
@@ -24,20 +25,21 @@ omegaconf>=2.0.6; sys_platform == 'darwin'
 numba==0.63.1
 torchcrepe
 torchfcpe
+swift_f0
 einops
 transformers==4.44.2
 
 # Visualization and UI
 matplotlib==3.10.8
 tensorboard
+tensorboardX
+tensorflow
 gradio==6.5.1
 
 # Miscellaneous utilities
 certifi>=2023.07.22; sys_platform == 'darwin'
 antlr4-python3-runtime==4.8; sys_platform == 'darwin'
-tensorboardX
 edge-tts==7.2.7
-pypresence
 beautifulsoup4
-sounddevice
+pypresence
 webrtcvad-wheels
