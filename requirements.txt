@@ -3,8 +3,8 @@ setuptools==81.0.0
 pip>=23.3; sys_platform == 'darwin'
 wheel; sys_platform == 'darwin'
 PyYAML; sys_platform == 'darwin'
-numpy==2.2.1
-requests>=2.31.0,<2.32.0
+numpy==2.4.4
+requests
 tqdm
 wget
 
@@ -12,9 +12,8 @@ wget
 ffmpeg-python>=0.2.0
 faiss-cpu==1.13.2
 librosa==0.11.0
-scipy==1.16.3
-soundfile==0.12.1
-sounddevice
+scipy==1.17.1
+soundfile==0.13.1
 noisereduce
 pedalboard
 stftpitchshift
@@ -22,24 +21,25 @@ soxr
 
 # Machine learning and deep learning
 omegaconf>=2.0.6; sys_platform == 'darwin'
-numba==0.63.1
+numba==0.65.0
 torchcrepe
 torchfcpe
 swift_f0
 einops
-transformers==4.44.2
+transformers==5.4.0
 
 # Visualization and UI
 matplotlib==3.10.8
 tensorboard
-tensorboardX
-tensorflow
-gradio==6.5.1
+gradio==5.50.0
 
 # Miscellaneous utilities
-certifi>=2023.07.22; sys_platform == 'darwin'
-antlr4-python3-runtime==4.8; sys_platform == 'darwin'
-edge-tts==7.2.7
-beautifulsoup4
+certifi>=2026.2.25; sys_platform == 'darwin'
+antlr4-python3-runtime==4.13.2; sys_platform == 'darwin'
+tensorboardX
+edge-tts==7.2.8
 pypresence
+beautifulsoup4
+sounddevice
 webrtcvad-wheels
+psutil
